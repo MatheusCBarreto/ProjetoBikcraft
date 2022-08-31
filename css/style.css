@@ -1,3 +1,4 @@
+/* Geral */
 @import "../css/global/global.css";
 @import "../css/utilidades/tipografia.css";
 @import "../css/utilidades/cores.css";
@@ -10,6 +11,7 @@
 /* Home */
 @import "../css/home/introducao.css";
 @import "../css/home/tecnologia.css";
+@import "../css/home/parceiros.css";
 
 /* Bicicletas */
 @import "../css/bicicletas.css/bicicletas-lista.css";
