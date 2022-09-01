@@ -19,10 +19,20 @@
     line-height: 1.33;
     font-family: "Poppins";
     font-weight: 600;
+    max-width: max-content;
 }
 
 .botao:hover {
     background: linear-gradient(180deg, #ffb60d 0%, #e59317 100%);
+}
+
+.botao.botaosecundario {
+    background: var(--cor-dez);
+    color: var(--cor-dois);
+}
+
+.botao.botaosecundario:hover {
+    background: var(--cor-nove);
 }
 
 @media (max-width: 600px) {
@@ -33,24 +43,24 @@
     }
 }
 
-.link {
-    display: inline-block;
-    color: var(--cor-primaria-um);
-    font-family: "Poppins", sans-serif;
-    font-size: 1.5rem;
-    line-height: 1.5;
-    font-weight: 500;
-    text-transform: uppercase;
-}
+    .link {
+        display: inline-block;
+        color: var(--cor-primaria-um);
+        font-family: "Poppins", sans-serif;
+        font-size: 1.5rem;
+        line-height: 1.5;
+        font-weight: 500;
+        text-transform: uppercase;
+    }   
 
-.link::after {
-    content: "";
-    display: block;
-    width: 100%;
-    height: 4px;
-    background-color: currentColor;
-}
+    .link::after {
+        content: "";
+        display: block;
+        width: 100%;
+        height: 4px;
+        background-color: currentColor;
+    }
 
-.link:hover {
-    color: var(--cor-zero);
-}
+    .link:hover {
+        color: var(--cor-zero);
+    }
