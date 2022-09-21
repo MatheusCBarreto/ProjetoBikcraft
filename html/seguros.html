@@ -5,6 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="Termos e Condições">
+<link rel="icon" href="../favicon.svg" type="image/svg+xml">
         <link rel="preload" href="../css/style.css" as="style">
         <link rel="stylesheet" href="../css/style.css">
 
@@ -12,8 +13,12 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@1,800&family=Poppins:wght@400;600&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
-        
+
         <title>Seguros | Bikcraft</title>
+
+        <script>
+            document.documentElement.classList.add("js");
+        </script>
     </head>
     <body id="seguros">
        <header class="header-bg">
@@ -38,7 +43,7 @@
                     <h1 class="font-1-xxl cor-zero">Você seguro<span class="cor-primaria-um">.</span></h1>
                 </div>
             </div>
-                <div class="seguros conteiner">   
+                <div class="seguros conteiner fadeInLeft" data-anime="400">   
                     <div class="seguros-item">
                         <h3 class="font-1-xl cor-seis">PRATA</h3>
                         <span class="font-1-xl cor-zero">R$ 199 <span class="font-1-xs cor-seis">mensal</span></span>
@@ -50,7 +55,7 @@
                         </ul>
                         <a class="botao botaosecundario" href="../html/orcamento.html?tipo=seguro&produto=prata">Inscreva-se</a>
                         </div>
-                    <div class="seguros-item">
+                    <div class="seguros-item fadeInUp" data-anime="400">
                         <h3 class="font-1-xl cor-primaria-um">OURO</h3>
                         <span class="font-1-xl cor-zero">R$ 299 <span class="font-1-xs cor-seis">mensal</span></span>
                         <ul class="font-2-m cor-zero">
@@ -206,6 +211,7 @@
             </p>
         </div>
    </footer>
-<script src="../js/script.js"></script>
+   <script src="../js/plugins/simple-anime.js"></script>;
+    <script src="../js/script.js"></script>
     </body>
 </html>    
